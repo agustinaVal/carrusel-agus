@@ -1,0 +1,62 @@
+.titulo {
+  background-color:#7F0037FF;
+}
+
+h1 {
+  padding: .2em 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.fotos {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+}
+#img1 {
+  background-image: url(../img/18195051_10155271156054140_6322136375166114401_n.jpg);
+}
+
+#img2 {
+  background-image: url(../img/19274736_10155447048059140_5565017098466988863_n.jpg);
+}
+
+#img3 {
+  background-image: url(../img/19275119_10155447040394140_9141602167495801927_n.jpg);
+}
+
+#img4 {
+  background-image: url(../img/20664665_10155630502794140_1775704156640055868_n.jpg);
+}
+#img5 {
+  background-image: url(../img/11149250_10153199964304140_7347655740818434206_n.jpg);
+}
+#img6 {
+  background-image: url(../img/32288_10151239855309140_1721663267_n.jpg);
+}
+#img7 {
+  background-image: url(../img/581734_10151584698649140_1089062245_n.jpg);
+}
+
+.splash {
+  width: 100%;
+  height: 90vh;
+}
+
+.circulos{
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-circle {
+  margin: .5em;
+  color: #FFF;
+  cursor: pointer;
+}
